@@ -308,8 +308,12 @@ main .fonctionnement__list .function__step::before {
   left: -0.75rem;
 }
 main .fonctionnement__list .function__step .function__info {
-  width: 250px;
-  box-sizing: border-box;
+  width: 100%;
+}
+@media (min-width: 375px) {
+  main .fonctionnement__list .function__step .function__info {
+    width: 250px;
+  }
 }
 @media (min-width: 1024px) {
   main .fonctionnement__list .function__step .function__info {

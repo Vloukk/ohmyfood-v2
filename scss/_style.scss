@@ -337,8 +337,11 @@ main {
           }
 
           .function__info {
-            width: 250px;
-            box-sizing: border-box;
+            width: 100%;
+
+            @media (min-width:375px) {
+              width: 250px;
+            }
 
             @media (min-width:1024px) {
               width: auto;
