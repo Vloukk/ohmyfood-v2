@@ -460,6 +460,11 @@ main {
           position: relative;
           display: flex;
           align-items: center;
+          justify-content: space-between;
+
+          a {
+            color: black;
+          }
         }
       
         &__content {

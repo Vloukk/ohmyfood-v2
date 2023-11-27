@@ -417,6 +417,10 @@ main .card__footer {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+main .card__footer a {
+  color: black;
 }
 main .card__content {
   flex: 1;
