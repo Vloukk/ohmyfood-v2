@@ -229,6 +229,8 @@ main .reservation .btn:hover {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6666666667);
 }
 main .fonctionnement {
+  max-width: 1440px;
+  margin: auto;
   display: grid;
   row-gap: 40px;
   padding: 40px 20px 40px 20px;
@@ -349,6 +351,10 @@ main .restaurants__title {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 20px;
+}
+main .container {
+  max-width: 1440px;
+  margin: auto;
 }
 main .heart {
   cursor: pointer;
@@ -542,6 +548,8 @@ main .card__btn .toggle {
 
 /* section menu */
 .menu {
+  max-width: 1440px;
+  margin: auto;
   margin-top: -4rem;
   border-radius: 2rem 2rem 0 0;
   background-color: #F6F6F6;

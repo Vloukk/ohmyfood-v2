@@ -253,6 +253,8 @@ main {
     }
     /* section fonctionement */
     .fonctionnement {
+      max-width: 1440px;
+      margin: auto;
       display: grid;
       row-gap: 40px;
       padding: 40px 20px 40px 20px;
@@ -381,6 +383,11 @@ main {
           font-weight: 700;
           padding-bottom: 20px;
         }
+      }
+
+      .container {
+        max-width: 1440px;
+        margin: auto;
       }
 
       /* Styles de base pour le coeur */
